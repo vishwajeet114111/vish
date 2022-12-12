@@ -24,6 +24,7 @@ public class Eg4 {
 		  {
 			for(int j=0;j<=lastcell;j++)
 			{
+				System.out.println();
 				System.out.print(mySheet.getRow(i).getCell(j).getCellType()+" ");
 			}
 
